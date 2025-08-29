@@ -1,0 +1,10 @@
+AllowUsers jump
+AuthenticationMethods publickey
+AuthorizedKeysFile /config/.ssh/authorized_keys
+HostKey /config/.ssh/id_ed25519
+PasswordAuthentication no
+
+AllowAgentForwarding yes
+AllowTcpForwarding yes
+AllowStreamLocalForwarding yes
+GatewayPorts yes
