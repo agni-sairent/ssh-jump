@@ -20,4 +20,4 @@ This image runs as a non-root user and only allows SSH connections using pre-con
 5. Use `localhost@<local-port>` to connect to the remote server.
 6. Enjoy!
 
-Notes: the serverkeys are not stored in the image, you will need it's entry in `~/.ssh/known_hosts` file after each restart.`
+Notes: the serverkeys are not stored in the image, you will need it's entry in `~/.ssh/known_hosts` file after each restart.
