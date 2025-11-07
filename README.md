@@ -9,7 +9,7 @@ This image runs as a non-root user and only allows SSH connections using pre-con
 
 **I am not claiming this image to be a secure solution for long term use in any way.**
 
-**Use at your own risk, no warranties. All code is provided as-is with no guarantees.**
+**Use at your own risk. All code is provided as-is with no guarantees.**
 
 ## How to use:
 
