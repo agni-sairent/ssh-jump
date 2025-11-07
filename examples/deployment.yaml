@@ -19,7 +19,7 @@ spec:
         - name: "infra-artifact-repository"
       containers:
         - name: "ssh-jump"
-          image: ""
+          image: "ghcr.io/agni-sairent/ssh-jump:latest"
           imagePullPolicy: "Always"
           securityContext:
             seccompProfile:
