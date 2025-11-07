@@ -15,8 +15,6 @@ spec:
       labels:
         app.kubernetes.io/name: "ssh-jump"
     spec:
-      imagePullSecrets:
-        - name: "infra-artifact-repository"
       containers:
         - name: "ssh-jump"
           image: "ghcr.io/agni-sairent/ssh-jump:latest"
